@@ -77,7 +77,7 @@ const P = [
  {id:"buttons", cat:"controles", name:"Lotes de botones arcade surtidos", model:"Redondos, cuadrados iluminados, triangulares y divididos", desc:"Pulsadores arcade variados: redondos rojos grandes, cuadrados iluminados, triangulares de colores, divididos en 3 colores y pulsadores chicos.", specs:["Varios modelos","Con microswitch"], imgs:["o19","o20","n005"]},
  {id:"litbuttons", cat:"controles", name:"Botones cuadrados iluminados", model:"Pulsadores cuadrados y redondos con luz", desc:"Pulsadores arcade cuadrados con iluminación interna y pulsadores redondos chicos con portalámpara.", specs:["Iluminados"], imgs:["o72","o75"]},
  {id:"split", cat:"controles", name:"Botón grande multicolor dividido", model:"Pulsador gigante de 2 y 3 sectores", desc:"Botón arcade gigante de sectores de colores con microswitches y aro de fijación, típico de juegos de preguntas y de premios.", specs:["Multicolor","Microswitches"], imgs:["o15","o17"]},
- {id:"mechparts", cat:"controles", name:"Piezas de mecanismo con resortes", model:"Soportes, palanca y resortes plásticos", desc:"Juego de piezas plásticas negras con resortes y palanca, para mecanismos de pedal, palanca o pulsador de muebles arcade.", specs:["Con resortes"], imgs:["n004"]},
+ {id:"mechparts", cat:"controles", name:"Accesorios de metegol Roberto Sport", model:"Origen España", desc:"Accesorios para metegol Roberto Sport, de origen España.", specs:["Metegol","Roberto Sport","Origen España"], imgs:["n004"]},
 
  /* ---------- Monederos ---------- */
  {id:"coindoor", cat:"monederos", name:"Frente de monedero con display y mecanismo", model:"Placa de entrada de fichas iluminada + validador", desc:"Frente negro con ranura, display iluminado y boca de devolución, junto al mecanismo interior con solenoide.", specs:["Display iluminado","Mecanismo incluido"], imgs:["o01","o02","o38"]},
@@ -112,13 +112,13 @@ const P = [
 
  /* ---------- Mecánica ---------- */
  {id:"gearmotor", cat:"mecanica", name:"Motor de contadora de billetes con ruedas", model:"Macnet 35ZYL002, 9 V DC, 45 mA, 110 RPM", desc:"Motor reductor 35ZYL002, el que usan las contadoras de billetes, con soporte en U, eje y ruedas alimentadoras. Varias unidades.", specs:["9 V DC","110 RPM","Varias unidades"], imgs:["o10","o11","o13"]},
- {id:"dcmotor", cat:"mecanica", name:"Motor DC", model:"Motor de corriente continua con eje", desc:"Motor de corriente continua de carcasa metálica, nuevo en su embalaje.", specs:["Nuevo"], imgs:["o28"]},
- {id:"blower", cat:"mecanica", name:"Turbina centrífuga con motor", model:"Soplador de carcasa metálica", desc:"Turbina centrífuga metálica con motor eléctrico y base de fijación.", specs:["Metálica","Con motor"], imgs:["o30","o32"]},
+ {id:"dcmotor", cat:"mecanica", name:"Motor crane", model:"Motor para máquina de grúa", desc:"Motor para máquina crane (grúa), de corriente continua y carcasa metálica. Nuevo, en su embalaje.", specs:["Crane","Nuevo"], imgs:["o28"]},
+ {id:"blower", cat:"mecanica", name:"Tolva para redemption con sistema de pago con fichas", model:"Tolva con motor", desc:"Tolva metálica con motor eléctrico y base de fijación, para máquinas redemption con sistema de pago con fichas.", specs:["Redemption","Pago con fichas","Con motor"], imgs:["o30","o32"]},
  {id:"latches", cat:"mecanica", name:"Cierres metálicos de palanca", model:"Cierres tipo toggle con contraplaca", desc:"Cierres de palanca metálicos con contraplaca para puertas y tapas de gabinetes.", specs:["Metálicos"], imgs:["n028","n029","n030"]},
- {id:"bellows", cat:"mecanica", name:"Fuelles plásticos articulados", model:"Set de protectores telescópicos", desc:"Protectores plásticos articulados que se pliegan uno dentro de otro, para cubrir guías o mecanismos móviles.", specs:["Set"], imgs:["o27","o29"]},
+ {id:"bellows", cat:"mecanica", name:"Buchaca de pool — juego de 6 unidades", model:"Juego de 6 buchacas", desc:"Juego de 6 buchacas para mesa de pool.", specs:["Pool","6 unidades"], imgs:["o27","o29"]},
  {id:"trays", cat:"mecanica", name:"Bocas de premio / devolución", model:"Bandejas plásticas con marco", desc:"Bocas plásticas color marfil con marco para entrega de premios, fichas o productos.", specs:["Plástico"], imgs:["o34","o31","o33"]},
  {id:"grill", cat:"mecanica", name:"Rejilla de ventilación metálica", model:"Rejilla negra de 5 ranuras", desc:"Rejilla metálica negra con ranuras estampadas y 4 perforaciones de fijación.", specs:["Metálica"], imgs:["o70"]},
- {id:"boxes", cat:"mecanica", name:"Gabinetes metálicos con salida tipo tolva", model:"Lote de 3 unidades", desc:"Tres gabinetes de chapa con manija y salida cónica, con cableado.", specs:["3 unidades"], imgs:["o77"]},
+ {id:"boxes", cat:"mecanica", name:"Turbinas para inflables importadas", model:"Turbinas importadas", desc:"Turbinas importadas para inflables.", specs:["Importadas","Para inflables"], imgs:["o77"]},
 
  /* ---------- Retro ---------- */
  {id:"fishing", cat:"retro", tag:"Sega", name:"Control de pesca Sega Dreamcast", model:"HKT-8700 original", desc:"Control de pesca original de Dreamcast con carrete, palanca analógica, sensor de movimiento y vibración. Compatible con Sega Bass Fishing 1 y 2, Sega Marine Fishing y otros. Hay videos.", specs:["Original Sega","Con cable"], imgs:["o14"], video:true},
