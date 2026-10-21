@@ -1,14 +1,15 @@
-# DNDLB Arcade
+﻿# repuestos-arcade-pinball
 
-Catálogo de marquesinas, repuestos arcade, flipper y retro de Dofus (Néstor David Lucero Bernadac).
+Catalogo de repuestos de arcade, flipper y retro. Sitio estatico (GitHub Pages), sin precios: las consultas van por WhatsApp.
 
-## Publicar en GitHub Pages
-1. Subí todo el contenido de esta carpeta (index.html, img/, video/) a la raíz de un repositorio.
-2. Settings → Pages → Source: rama `main`, carpeta `/ (root)` → Save.
-3. En uno o dos minutos queda en `https://TU-USUARIO.github.io/NOMBRE-DEL-REPO/`.
+## Estructura
+- index.html: portada con las secciones.
+- Una pagina por seccion: marquesinas.html, maquinas.html, pistolas.html, controles.html, monederos.html, lipper.html, electronica.html, mecanica.html, etro.html y ideos.html.
+- data.js: telefono de WhatsApp (WHATSAPP, PHONE_TXT), nombre (BRAND), secciones (CATS) y productos (P).
+- pp.js y style.css: logica y diseno compartidos.
+- img/ y ideo/: fotos y videos.
 
 ## Editar
-- Productos: lista `const P = [...]` en index.html. Cada producto tiene sección (`cat`), nombre, modelo, descripción, características y fotos (`imgs`, nombre del archivo en img/ sin “.jpg”).
-- Secciones: lista `const CATS`.
-- Videos: lista `const VIDEOS` (archivos en video/).
-- WhatsApp y email: `const WHATSAPP` y `const EMAIL`.
+Para cambiar el telefono, edita WHATSAPP y PHONE_TXT al principio de data.js.
+Para agregar un producto, suma una linea a la lista P en data.js con su cat, 
+ame, model, desc, specs e imgs.
